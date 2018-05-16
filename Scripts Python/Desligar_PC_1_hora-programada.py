@@ -1,6 +1,6 @@
 #Scripts Python - Amaury
+import os.path
 import time
-import sys
 import os
 
 time_to_shutdown=sys.argv[1]

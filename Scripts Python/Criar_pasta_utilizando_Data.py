@@ -1,7 +1,10 @@
 #Scripts Python - Amaury
+import os.path
+import sys
+import tempfile
 import datetime
 import time
-import os
+
 today=time.strftime('%Y%m%d')
 hour=time.strftime('%h')
 if(hour<12): h = "00"
